@@ -60,6 +60,9 @@ dependencies {
     implementation(libs.ui.graphics)
     implementation(libs.ui.tooling.preview)
     implementation(libs.material3)
+    implementation(files("libs/spotify-app-remote-release-0.8.0.aar"))
+    implementation(files("libs/spotify-auth-release-2.1.0.aar"))
+    implementation(files("libs/spotify-auth-store-release-2.1.0.aar"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.espresso.core)
@@ -67,4 +70,9 @@ dependencies {
     androidTestImplementation(libs.ui.test.junit4)
     debugImplementation(libs.ui.tooling)
     debugImplementation(libs.ui.test.manifest)
+
+    // Spotify
+    implementation(libs.spotify)
+    implementation(libs.browser)
+    implementation(libs.appcompat)
 }
