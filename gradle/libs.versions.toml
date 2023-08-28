@@ -12,6 +12,7 @@ spotify = "1.2.5"
 browser = "1.0.0"
 appcompat = "1.6.1"
 material = "1.9.0"
+gson = "2.10"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
@@ -32,6 +33,7 @@ spotify = { group = "com.spotify.android", name = "auth", version.ref = "spotify
 browser = { group = "androidx.browser", name = "browser", version.ref = "browser" }
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
 
 
 [plugins]
