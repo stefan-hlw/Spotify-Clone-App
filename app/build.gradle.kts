@@ -72,9 +72,9 @@ dependencies {
     implementation(libs.gson)
 
     // Spotify
-//    implementation(libs.spotify)
+    implementation(libs.spotify)
     implementation(libs.browser)
     implementation(libs.appcompat)
     implementation(files("libs/spotify-app-remote-release-0.8.0.aar"))
-    implementation(files("libs/spotify-auth-release-2.1.0.aar"))
+//    implementation(files("libs/spotify-auth-release-2.1.0.aar"))
 }
